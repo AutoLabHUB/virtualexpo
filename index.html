@@ -604,43 +604,71 @@
 
     .hidden {
       display: none !important;
+      .banner-brand-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 8px;
+}
+
+.banner-logo {
+  height: 34px;
+  width: auto;
+}
+
     }
   </style>
 </head>
 <body>
   <div class="page-wrap">
     <div class="shell">
-      <header class="banner">
-        <div class="banner-inner">
-          <div class="banner-kicker">Proposal • Virtual Expo Platform</div>
-          <h1 class="banner-title">
-            Virtual Expo &amp; Exhibitor Platform for
-            <span style="white-space: nowrap">SpeedBiz</span>
-          </h1>
-          <p class="banner-sub">
-            Nex-a will design and build a modern virtual expo platform that
-            allows exhibitors and attendees to connect, schedule meetings, host
-            sessions, and manage leads in one place – while giving your team a
-            flexible admin console to configure events, exhibitors, and
-            sponsorships as you grow.
-          </p>
-
-          <div class="banner-meta">
-            <div class="meta-pill">
-              <span class="meta-label">Prepared by</span>
-              <span class="meta-value">Nex-a Technology Solutions</span>
-            </div>
-            <div class="meta-pill">
-              <span class="meta-label">Contact</span>
-              <span class="meta-value">hello@nex-a.com.au</span>
-            </div>
-            <div class="meta-pill">
-              <span class="meta-label">Scope</span>
-              <span class="meta-value">Virtual expo, meeting scheduler, admin</span>
-            </div>
-          </div>
+   <header class="banner">
+  <div class="banner-inner">
+    <div class="banner-brand-row">
+      <img
+        src="https://static.wixstatic.com/media/f71431_126660eceb0545b7a1de3eec36659b47~mv2.png"
+        alt="Nex-a Technology Solutions logo"
+        class="banner-logo"
+      />
+      <div>
+        <div class="banner-kicker">Proposal • Virtual Expo Platform</div>
+        <div class="meta-pill" style="margin-top: 4px;">
+          <span class="meta-label">Client</span>
+          <span class="meta-value">SpeedBiz</span>
         </div>
-      </header>
+      </div>
+    </div>
+
+    <h1 class="banner-title">
+      Virtual Expo &amp; Exhibitor Platform for
+      <span style="white-space: nowrap">SpeedBiz</span>
+    </h1>
+
+    <p class="banner-sub">
+      Nex-a will design and build a modern virtual expo platform that
+      allows exhibitors and attendees to connect, schedule meetings, host
+      sessions, and manage leads in one place – while giving the SpeedBiz
+      team a flexible admin console to configure events, exhibitors, and
+      sponsorships as you grow.
+    </p>
+
+    <div class="banner-meta">
+      <div class="meta-pill">
+        <span class="meta-label">Prepared by</span>
+        <span class="meta-value">Nex-a Technology Solutions</span>
+      </div>
+      <div class="meta-pill">
+        <span class="meta-label">Contact</span>
+        <span class="meta-value">hello@nex-a.com.au</span>
+      </div>
+      <div class="meta-pill">
+        <span class="meta-label">Scope</span>
+        <span class="meta-value">Virtual expo, meeting scheduler, admin</span>
+      </div>
+    </div>
+  </div>
+</header>
+
 
       <main class="layout">
         <!-- TOC -->
